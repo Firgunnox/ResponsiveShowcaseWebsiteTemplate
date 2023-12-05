@@ -1,0 +1,301 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+
+  /* NAV BAR CENTER*/
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    color: #fff;
+    height: 60px;
+  }
+  
+  .navbar-logo {
+    margin-right: 10px;
+  }
+  
+  .navbar-menu {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-menu li {
+    margin-left: 20px;
+  }
+  
+  .navbar-menu li:first-child {
+    margin-left: 0;
+  }
+  
+
+  .navbar-menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-menu li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+
+  .navbar-logo img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    border-radius: 50%;
+  }
+  
+
+  .navbar-menu li a.active {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  /* NAV BAR A DROITE
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #333;
+  color: #fff;
+  height: 60px;
+}
+
+.navbar-logo {
+  margin-right: 10px;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-menu li {
+  margin-left: 20px;
+}
+
+.navbar-menu li:first-child {
+  margin-left: 0;
+}
+
+.navbar-menu li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-menu li a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-logo img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.navbar-menu li a.active {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+*/
+
+/* NAV BAR A GAUCHE LOGO DROITE
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    height: 60px;
+    padding: 0 20px;
+  }
+  
+  .navbar-logo {
+    margin-left: 10px;
+  }
+  
+  .navbar-menu {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-menu li {
+    margin-left: 20px;
+  }
+  
+  .navbar-menu li:first-child {
+    margin-left: 0;
+  }
+  
+  .navbar-menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-menu li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+
+  .navbar-logo img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    border-radius: 50%;
+  }
+  
+  
+  .navbar-menu li a.active {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  */
+  
+  #home {
+    flex: 1;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #about {
+    flex: 1;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #services {
+    flex: 1;
+    padding: 50px;
+    text-align: center;
+  }
+
+  #services ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #services li {
+    margin-bottom: 10px;
+  }
+  
+  #contact {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  #contact form div {
+    margin-bottom: 20px;
+  }
+  
+  #contact form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  #contact form input,
+  #contact form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #contact form textarea {
+    height: 120px;
+  }
+  
+  #contact form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #contact form button:hover {
+    background-color: #555;
+  }
+  
+  .section-title {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .section-content {
+    line-height: 1.6;
+  }
+  
+  #footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 600px) {
+    header {
+      padding: 10px;
+    }
+  
+    #home,
+    #about,
+    #services,
+    #contact {
+      padding: 20px;
+    }
+
+  
+    .section-title {
+      font-size: 20px;
+    }
+  }
